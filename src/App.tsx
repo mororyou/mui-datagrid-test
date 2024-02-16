@@ -36,7 +36,7 @@ function App() {
       width: 120,
       editable: true,
       valueSetter: (params: GridValueSetterParams) => {
-        console.group('');
+        console.group('valueSetter');
         console.log(params);
         console.log(params.value);
         console.log(typeof params.value);
